@@ -3,16 +3,40 @@
 
 *{
     font-family: "Kanit", sans-serif;
+    
     font-weight: 300;
     font-style: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}    
+body {
+    margin:0;
+    min-height: 100vh;
+    background-image: url(/img/fondo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(120deg, #daeaeb 0%, #66a6ff 100%);
+}
+
+body:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    opacity: 0.1;
+    z-index: -1;
+
 }
 
 .FotoPrincipal {
-    background-image: url(/img/1titulo.jpg);
-    height: 45vh;
+    background-image: url(/img/prima1.jpg);
+    height: 20vh;
     width: 100%;    
     display: flex;
     justify-content: center;
@@ -38,14 +62,50 @@
     display: flex;
 
 }
-
-.grupo-a {
-    height: 50vh;
-    width: 75%;
-    display: grid;
-    justify-content: none;
+.card {
+    transition: transform 0.3s;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 
 }
+
+.card:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1) translateY(-30px);
+
+}
+.cards {
+    transition: all 0.3s;    
+
+}
+
+.cards:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;        
+    background-image: linear-gradient(to right, #ebeff1 0%, #26a0da  51%, #1067e1  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #b2aeae;
+    border-radius: 10px;
+    display: block;         
+}
+
+    
+    
+    
+    
+    /*height: 45vh;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 *{
@@ -155,8 +215,17 @@
                 "caja4"
                 "caja5"
                 "caja6";
-            }           
+            } 
+            
+            
+  /*  .grupo-a {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+
+
+}*/
 }
+
 
 /* fin media quieris*/
 
