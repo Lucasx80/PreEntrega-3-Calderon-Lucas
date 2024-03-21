@@ -35,7 +35,7 @@ body:before {
 }
 
 .FotoPrincipal {
-    background-image: url(/img/prima1.jpg);
+    background-image: url(../img/prima1.jpg);
     height: 20vh;
     width: 100%;    
     display: flex;
@@ -44,7 +44,7 @@ body:before {
     
 }
 .FotoPrincipal2 {
-    background-image: url(/img/133.jpg);
+    background-image: url(../img/133.jpg);
     height: 45vh;
     width: 100%;
     background-repeat:repeat;
