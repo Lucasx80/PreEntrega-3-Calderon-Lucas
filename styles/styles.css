@@ -103,18 +103,7 @@ body:before {
     align-items: center;
     
 }
-/*
-.FotoPrincipal2 {
-    background-image: url(../img/133.jpg);
-    height: 45vh;
-    width: 100%;
-    background-repeat:no-repeat;
-    display: flex;
-    justify-content: center;
-    
-    
-}
-*/
+
 .btn-primary {
     background-color: rgb(137, 176, 164);
     }
@@ -122,6 +111,16 @@ body:before {
 
 .img {
     display: flex;
+
+}
+
+.carousel-inner {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    min-height: 15vh;
+    
+    
 
 }
 .card {
@@ -138,27 +137,25 @@ body:before {
 }
 .cards {
     transition: all 0.3s;    
-
 }
 
 .cards:hover {
     transition: transform 0.3s;
-    transform: scale(1.1) translatez(-30px);
-    box-shadow: rgba(0, 0, 0, 1.56) 0px 22px 70px 4px;        
-    background-image: linear-gradient(to right, #ebeff1 0%, #26a0da  51%, #1067e1  100%);
-    margin: 10px;
-    padding: 15px 45px;
+    transform: scale(1.1) translatez(-5px);
+    box-shadow: rgba(0, 0, 0, 2.56) 0px 22px 70px 4px;        
+    /*background-image: linear-gradient(to right, #ebeff1 0%, #26a0da  51%, #1067e1  100%);
     
+    /**/
+    margin: 15px;
+    padding: 15px 15px;    
     text-transform: uppercase;
     transition: 0.5s;
-    background-size:150% auto;
+    background-size:120% auto;
     color: rgb(240, 231, 231);            
     box-shadow:  rgb(38, 57, 77) 0px 20px 30px -10px;
-    border-radius: 10px;
-    display: block;         
+    border-radius: 20px;
+    display: block;        
 }
-
-    
     
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
