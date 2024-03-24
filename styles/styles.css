@@ -17,7 +17,7 @@
 }
 /* animaciones */
 
-.roll-in-left{
+/*.roll-in-left{
     -webkit-animation:roll-in-left .6s ease-out both;
     animation:roll-in-left .6s ease-out both;
     animation-delay: 0.2s;
@@ -27,7 +27,7 @@
 
 @-webkit-keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}@keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
 
-
+*/
 
 .caja {
     -webkit-animation:roll-in-blurred-bottom .6s cubic-bezier(.23,1.000,.32,1.000) both;animation:roll-in-blurred-bottom .6s cubic-bezier(.23,1.000,.32,1.000) both
@@ -46,33 +46,28 @@
 
 }
 .caja4 {
-    animation-delay: 2s;
+    animation-delay: 0.5s;
 
 }
 .caja5 {
-    animation-delay: 2.5s;
+    animation-delay: 1s;
 
 }
 .caja6 {
-    animation-delay: 3s;
+    animation-delay: 1.5s;
 
 }
 
 
  @-webkit-keyframes roll-in-blurred-bottom{0%{-webkit-transform:translateY(800px) rotate(720deg);transform:translateY(800px) rotate(720deg);-webkit-filter:blur(50px);filter:blur(50px);opacity:0}100%{-webkit-transform:translateY(0) rotate(0deg);transform:translateY(0) rotate(0deg);opacity:1}}@keyframes roll-in-blurred-bottom{0%{-webkit-transform:translateY(800px) rotate(720deg);transform:translateY(800px) rotate(720deg);-webkit-filter:blur(50px);filter:blur(50px);opacity:0}100%{-webkit-transform:translateY(0) rotate(0deg);transform:translateY(0) rotate(0deg);opacity:1}}
 
+.flip-in-hor-bottom {
+    -webkit-animation:flip-in-hor-bottom 1.5s cubic-bezier(.25,.46,.45,.94) both;animation:flip-in-hor-bottom 2s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 0.3s;
 
-
-.flip-in-hor-bottom{
-    -webkit-animation:flip-in-hor-bottom .5s cubic-bezier(.25,.46,.45,.94) both;animation:flip-in-hor-bottom 1s cubic-bezier(.25,.46,.45,.94) both}
-
-
+}
+    
 @-webkit-keyframes flip-in-hor-bottom{0%{-webkit-transform:rotateX(80deg);transform:rotateX(80deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes flip-in-hor-bottom{0%{-webkit-transform:rotateX(80deg);transform:rotateX(80deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}
-
-
-
-
-
 
 
 
@@ -96,9 +91,7 @@ body:before {
     left: 0;    
     opacity: 0.1;
     z-index: -1;
-
 }
-
 
 
 .FotoPrincipal {
