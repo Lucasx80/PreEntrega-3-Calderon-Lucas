@@ -8,36 +8,40 @@
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary  border border-secondary ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">BikesCenter</a>
+          <a class="navbar-brand border border-primary" href="../index.html">BikesCenter</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
+              <li class="nav-item roll-in-left">
+                <a class="nav-link active" ="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item roll-in-left">
+                <a class="nav-link"  href="./productos.html">Productos</a>
+              </li>
+                  
+                <a class="nav-link roll-in-left"  href="./galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item roll-in-left">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+
               <li class="nav-item">
-                <a class="nav-link "href="../index.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="./servicios.html">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link "href="productos.html">Productos</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link "href="galeria.html">Galeria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Contacto.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active"  href="./servicios.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link dropdown-toggle" href="Otros.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+                <a class="nav-link dropdown-toggle roll-in-left" href="Otros.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Otros
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="productos.html">Buscar</a></li>
+                  <li><a class="dropdown-item" href="./html/productos.html">Buscar</a></li>
                   <li><a class="dropdown-item" href="#">RRHH</a></li>
                   <li><a class="dropdown-item" href="#">Sorprise!</a></li>
                 </ul>
@@ -70,110 +74,14 @@
       </section>
 
 
-      Aquí está el código completo con las correcciones para que las imágenes se muestren en tres columnas:
-
-```html
-<section class="container-fluid">  
-    <div class="row mt-3">              
-        <div class="col-md-12 d-flex flex-column justify-content-center ">
-            <h3></h3>
-            <p>Confiando en nuestra experiencia como grupo de ciclismo podemos recomendar las siguientes marcas<strong> Raleigh-Venzo-Volta-Giant-Specialized-Trek-Orbea-Vulcan. </strong></p>
-            <h4>Visita nuestras marcas recomendadas</h4>
-        </div>
-    </div>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col-md-12">
-            <div class="grupo-a">
-                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
-                    <a href="https://www.bicicletasraleigh.com.ar/">
-                        <img class="mw-100 rounded" src="../img/rale.png" alt="Raleigh">
-                    </a>
-                </div>
-
-                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
-                    <a href="https://venzoargentina.com.ar/bicicleta/venzo-x-force-rodado-29/">
-                        <img class="mw-100 rounded" src="../img/venzo.png" alt="Venzo">
-                    </a>
-                </div>
-
-                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
-                    <a href="https://voltabikes.com.ar/">
-                        <img class="mw-100 rounded" src="../img/volta.png" alt="Volta">
-                    </a>
-                </div>
-
-                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
-                    <a href="https://www.orbea.com/ar-es/">
-                        <img class="mw-100 rounded" src="../img/orbea.png" alt="Orbea">
-                    </a> 
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12">
-            <div class="grupo-b">
-                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
-                    <a href="https://giant-bicycles.com.ar/">
-                        <img class="mw-100 rounded" src="../img/Giant.png" alt="Giant">
-                    </a> 
-                </div>
-
-                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
-                    <a href="https://www.specialized.com/ar/es?gad_source=1&gclid=CjwKCAjwnv-vBhBdEiwABCYQAxxkAyttWnGmlwiiHwbleZ-1g82Kyv0rPdiiDOqTyG-JN7Cyr-PqRxoCgygQAvD_BwE">
-                        <img class="mw-100 rounded" src="../img/spec.png" alt="specialized">
-                    </a> 
-                </div>
-
-                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
-                    <a href="https://www.trekbikesargentina.com/?gad_source=1&gclid=CjwKCAjwnv-vBhBdEiwABCYQA2lrZW4ciDLqYqPBjGbkat-njbWBtIznSJZt-mqJaV0-BZBImnmKnBoC7FcQAvD_BwE">
-                        <img class="mw-100 rounded" src="../img/trek.png" alt="Trek">
-                    </a> 
-                </div>
-
-                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
-                    <a href="https://www.modobici.ar/producto/venzo-vulcan/">
-                        <img class="mw-100 rounded" src="../img/vulcan.png" alt="Vulcan">
-                    </a>
-                </div>
-            </div>
-        </div>                   
-    </div> 
-    <div class="row">
-        <div class="col-md-12">
-            <div class="grupo-b2"> 
-                <div class="col-md-12 d-flex flex-column justify-content-center">
-                    <h4>Accesorios</h4> 
-                    <p>También disponemos de descuentos en accesorios</p> 
-                    <div>
-                        <img class="mw-100 rounded" src="../img/accesorios1.jpg" alt="Producto1">
-                        <h5>Ofertas</h5>
-                        <img class="mw-100 rounded" src="../img/accesorios2.jpg" alt="Producto2">
-                        <h5>Ofertas</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-```
-
+      
 
 
 
       </section>
       
 
-    <div class="grupo-b2"> 
-      <div class="col-md-12 d-flex flex-column justify-content-center">
-          <h4>Accesorios</h4> 
-          <p>También disponemos de descuentos en accesorios</p> 
-          <div>
-              <img class="mw-100 rounded" src="../img/accesorios1.jpg" alt="Producto1">
-              <h5>Ofertas</h5>
-              <img class="mw-100 rounded" src="../img/accesorios2.jpg" alt="Producto2">
-              <h5>Ofertas</h5>
-          </div>
-      </div>
-  </div>
+    
     
 
       
