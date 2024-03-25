@@ -20,17 +20,17 @@
                 <a class="nav-link "href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link "href="Productos.html">Productos</a>
+                <a class="nav-link "href="productos.html">Productos</a>
               </li>
               
               <li class="nav-item">
-                <a class="nav-link "href="Galeria.html">Galeria</a>
+                <a class="nav-link "href="galeria.html">Galeria</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="Contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="./servicios.html">Servicios</a>
+                <a class="nav-link active"  href="./servicios.html">Servicios</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link dropdown-toggle" href="Otros.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -70,6 +70,150 @@
       </section>
 
 
+      Aquí está el código completo con las correcciones para que las imágenes se muestren en tres columnas:
+
+```html
+<section class="container-fluid">  
+    <div class="row mt-3">              
+        <div class="col-md-12 d-flex flex-column justify-content-center ">
+            <h3></h3>
+            <p>Confiando en nuestra experiencia como grupo de ciclismo podemos recomendar las siguientes marcas<strong> Raleigh-Venzo-Volta-Giant-Specialized-Trek-Orbea-Vulcan. </strong></p>
+            <h4>Visita nuestras marcas recomendadas</h4>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-md-12">
+            <div class="grupo-a">
+                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
+                    <a href="https://www.bicicletasraleigh.com.ar/">
+                        <img class="mw-100 rounded" src="../img/rale.png" alt="Raleigh">
+                    </a>
+                </div>
+
+                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
+                    <a href="https://venzoargentina.com.ar/bicicleta/venzo-x-force-rodado-29/">
+                        <img class="mw-100 rounded" src="../img/venzo.png" alt="Venzo">
+                    </a>
+                </div>
+
+                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
+                    <a href="https://voltabikes.com.ar/">
+                        <img class="mw-100 rounded" src="../img/volta.png" alt="Volta">
+                    </a>
+                </div>
+
+                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
+                    <a href="https://www.orbea.com/ar-es/">
+                        <img class="mw-100 rounded" src="../img/orbea.png" alt="Orbea">
+                    </a> 
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="grupo-b">
+                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
+                    <a href="https://giant-bicycles.com.ar/">
+                        <img class="mw-100 rounded" src="../img/Giant.png" alt="Giant">
+                    </a> 
+                </div>
+
+                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
+                    <a href="https://www.specialized.com/ar/es?gad_source=1&gclid=CjwKCAjwnv-vBhBdEiwABCYQAxxkAyttWnGmlwiiHwbleZ-1g82Kyv0rPdiiDOqTyG-JN7Cyr-PqRxoCgygQAvD_BwE">
+                        <img class="mw-100 rounded" src="../img/spec.png" alt="specialized">
+                    </a> 
+                </div>
+
+                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
+                    <a href="https://www.trekbikesargentina.com/?gad_source=1&gclid=CjwKCAjwnv-vBhBdEiwABCYQA2lrZW4ciDLqYqPBjGbkat-njbWBtIznSJZt-mqJaV0-BZBImnmKnBoC7FcQAvD_BwE">
+                        <img class="mw-100 rounded" src="../img/trek.png" alt="Trek">
+                    </a> 
+                </div>
+
+                <div class="cards h-30 text-bg-dark flip-in-hor-bottom">
+                    <a href="https://www.modobici.ar/producto/venzo-vulcan/">
+                        <img class="mw-100 rounded" src="../img/vulcan.png" alt="Vulcan">
+                    </a>
+                </div>
+            </div>
+        </div>                   
+    </div> 
+    <div class="row">
+        <div class="col-md-12">
+            <div class="grupo-b2"> 
+                <div class="col-md-12 d-flex flex-column justify-content-center">
+                    <h4>Accesorios</h4> 
+                    <p>También disponemos de descuentos en accesorios</p> 
+                    <div>
+                        <img class="mw-100 rounded" src="../img/accesorios1.jpg" alt="Producto1">
+                        <h5>Ofertas</h5>
+                        <img class="mw-100 rounded" src="../img/accesorios2.jpg" alt="Producto2">
+                        <h5>Ofertas</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+```
+
+
+
+
+      </section>
+      
+
+    <div class="grupo-b2"> 
+      <div class="col-md-12 d-flex flex-column justify-content-center">
+          <h4>Accesorios</h4> 
+          <p>También disponemos de descuentos en accesorios</p> 
+          <div>
+              <img class="mw-100 rounded" src="../img/accesorios1.jpg" alt="Producto1">
+              <h5>Ofertas</h5>
+              <img class="mw-100 rounded" src="../img/accesorios2.jpg" alt="Producto2">
+              <h5>Ofertas</h5>
+          </div>
+      </div>
+  </div>
+    
+
+      
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -96,10 +240,11 @@
       <div class="box">
           <h2>Siguenos en nuestras redes</h2>
           <div class="red-social">
-              <a href="#" class="rounded fa fa-facebook"></a>
-              <a href="#" class="rounded fa fa-instagram"></a>
-              <a href="#" class="rounded fa fa-twitter"></a>
-              <a href="#" class="rounded fa fa-youtube"></a>
+            <a href="https://web.whatsapp.com/" class="rounded fa fa-whatsapp"></a>
+              <a href="https://www.instagram.com/lucasmcalderon/" class="rounded fa fa-instagram"></a>
+              <a href="https://twitter.com/?lang=es" class="rounded fa fa-twitter"></a>
+              <a href="https://youtube.com/@lucascalderonX?si=cfqw_8NnQosPOmIW" class="rounded fa fa-youtube"></a>
+              
           </div>
       </div>    
       </div>

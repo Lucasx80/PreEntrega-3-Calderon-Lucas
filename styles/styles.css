@@ -93,6 +93,13 @@ body:before {
     z-index: -1;
 }
 
+.subcategory {
+    transition: transform 0.3s;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+
+}
+
 
 .FotoPrincipal {
     background-image: url(../img/prima1.jpg);
