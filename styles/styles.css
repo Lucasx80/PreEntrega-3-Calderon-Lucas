@@ -26,8 +26,8 @@
 
 }
 
-.descripcion-1,.descripcion-2 {
-    width: 100%;
+.descripcion-1 .descripcion-2 {
+    width: 75%;
 }    
 
 .descripcion-1 {
@@ -55,43 +55,6 @@
     vertical-align: middle;
     border-style: none;
 }
-
-/*
-
-.primera-seccion-index {
-    background-color: #1b1b1b;
-    display: flex;
-    align-items: center;
-}
-  
-.descripcion-1,
-  .descripcion-2 {
-    width: 50%;
-}
-  
-  .descripcion-1 {
-    padding: 50px 50px 50px 110px;
-    color: #FFFFFF;
-}
-
-.img-principal {
-    width: 100%;
-}
-
-.descripcion-1 h1 {
-    font-family: "Poppins", sans-serif;
-    font-size: 75px;
-    font-weight: 900;
-}
-.descripcion-1 h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 31px;
-    font-weight: 400;
-    margin-bottom: 40px;
-}
-
-
-
 
 
 
