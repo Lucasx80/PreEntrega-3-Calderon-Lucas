@@ -15,6 +15,86 @@
     color: green;
 
 }
+
+
+
+.primera-seccion-index {
+    flex-direction: column;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+
+}
+
+.descripcion-1,.descripcion-2 {
+    width: 100%;
+}    
+
+.descripcion-1 {
+    text-align: center;
+    padding: 50px 20px 50px 20px;
+    background-color: primary;      
+    font-size: 75px;
+    font-weight: 900;
+    color: white;
+
+}
+.boton-forma {
+    color: #FFFFFF;
+    
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: 1px solid #FFFFFF;
+    transition: 1s;
+}
+.img-principal {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+/*
+
+.primera-seccion-index {
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+}
+  
+.descripcion-1,
+  .descripcion-2 {
+    width: 50%;
+}
+  
+  .descripcion-1 {
+    padding: 50px 50px 50px 110px;
+    color: #FFFFFF;
+}
+
+.img-principal {
+    width: 100%;
+}
+
+.descripcion-1 h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 75px;
+    font-weight: 900;
+}
+.descripcion-1 h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
 /* animaciones */
 
 /*.roll-in-left{
@@ -57,8 +137,12 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
- @-webkit-keyframes roll-in-blurred-bottom{0%{-webkit-transform:translateY(800px) rotate(720deg);transform:translateY(800px) rotate(720deg);-webkit-filter:blur(50px);filter:blur(50px);opacity:0}100%{-webkit-transform:translateY(0) rotate(0deg);transform:translateY(0) rotate(0deg);opacity:1}}@keyframes roll-in-blurred-bottom{0%{-webkit-transform:translateY(800px) rotate(720deg);transform:translateY(800px) rotate(720deg);-webkit-filter:blur(50px);filter:blur(50px);opacity:0}100%{-webkit-transform:translateY(0) rotate(0deg);transform:translateY(0) rotate(0deg);opacity:1}}
+
+@-webkit-keyframes roll-in-blurred-bottom{0%{-webkit-transform:translateY(800px) rotate(720deg);transform:translateY(800px) rotate(720deg);-webkit-filter:blur(50px);filter:blur(50px);opacity:0}100%{-webkit-transform:translateY(0) rotate(0deg);transform:translateY(0) rotate(0deg);opacity:1}}@keyframes roll-in-blurred-bottom{0%{-webkit-transform:translateY(800px) rotate(720deg);transform:translateY(800px) rotate(720deg);-webkit-filter:blur(50px);filter:blur(50px);opacity:0}100%{-webkit-transform:translateY(0) rotate(0deg);transform:translateY(0) rotate(0deg);opacity:1}}
 
 .flip-in-hor-bottom {
     -webkit-animation:flip-in-hor-bottom 1.5s cubic-bezier(.25,.46,.45,.94) both;animation:flip-in-hor-bottom 2s cubic-bezier(.25,.46,.45,.94) both;
@@ -95,7 +179,7 @@ body:before {
 
 .FotoPrincipal {
     background-image: url(../img/prima1.jpg);
-    height: 20vh;
+    height: 35vh;
     width: 100%;    
     display: flex;
     justify-content: center;
@@ -169,6 +253,33 @@ body:before {
 
 /*:::::Pie de Pagina*/
 
+/*boton up*/
+
+.boton-up {
+    
+    width: 5%;
+    min-height: 2vh;
+    position: absolute;
+    animation: bouncingArrow 1000ms;
+    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
+    
+    display: flex;
+    position: sticky;
+    top: 91%;
+    font-size: 2.5rem;
+    margin-top: -4.5rem;
+    justify-content: left;
+    margin-left: 4px;
+    margin-right: 99%;
+    color: rgb(136, 146, 197);
+    transform: translate3d(0px, -30%, 0px);
+    
+
+}    
+
+
+
 .pie-pagina{
     width: 100%;
     background-color: #22425e;
@@ -238,6 +349,11 @@ body:before {
         padding: 35px 0px;
     }
 }
+
+
+
+
+
 
 @media screen and ( max-width: 780px ) {
     .container {

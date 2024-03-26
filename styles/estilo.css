@@ -9,11 +9,11 @@
 }
 *::-moz-selection {
   background-color: black;
-  color: green;
+  color: rgb(199, 233, 199);
 }
 *::selection {
   background-color: black;
-  color: green;
+  color: rgb(199, 233, 199);
 }
 
 body {
